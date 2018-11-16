@@ -1,0 +1,1061 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="c785ece1-d30f-447f-bbb2-6d647ac40e27"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="7beb241a-3dec-4a03-8e86-277e07620d04"
+        name="Customer"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="4f217871-fa00-416f-8988-e347870dc5d7"
+            isDerived="false"
+            sourceEndRoleName="Customer"
+            targetEndRoleName="Services"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="132e9d02-12b0-4eaf-80ab-0e9011cef150"
+              LastKnownName="Services"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a11ef182-aa06-451c-b9be-7ff7dc85fd9b"
+                  name="Customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="11ba23ef-a666-49b4-9f78-d5dce19b342e"
+                  name="Services"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0ab43812-025d-4c11-a105-ceacbce7b86f"
+            isDerived="false"
+            sourceEndRoleName="Customer"
+            targetEndRoleName="Log in/ sign up"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="40f05398-f217-4838-aa7c-695706882f58"
+              LastKnownName="Log in/ sign up"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4f41ccda-fe7f-4d54-84af-e5670cfbb22d"
+                  name="Customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="074b54c5-d1de-49d6-9759-f334448055ad"
+                  name="Log in/ sign up"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f146e2dc-91f8-43d0-8e12-bf00b2e50a7a"
+            isDerived="false"
+            sourceEndRoleName="Customer"
+            targetEndRoleName="Feedback"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9f368c8b-d010-4a12-a3cf-417d296b5c3c"
+              LastKnownName="Feedback"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="968c4630-6a21-41e2-940c-619e9e346dfe"
+                  name="Customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1053e0cf-64cd-4f05-b616-8458a0ca839a"
+                  name="Feedback"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1801e917-275b-4aa2-87c2-8343bb37cb0a"
+            isDerived="false"
+            sourceEndRoleName="Customer"
+            targetEndRoleName="Customer"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="7beb241a-3dec-4a03-8e86-277e07620d04"
+              LastKnownName="Customer"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d7aae124-8ac3-43d5-a17e-eb6f108d00f8"
+                  name="Customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a1472df1-7171-41cd-ad69-0b4f1f890227"
+                  name="Customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5bda64e3-2915-4ba6-9ff7-527dd168a1e6"
+            isDerived="false"
+            sourceEndRoleName="Customer"
+            targetEndRoleName="Processing payments"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2a969f12-e3c3-4f8f-a6dd-84e1359bb605"
+              LastKnownName="Processing payments"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bb0e2ecf-a716-4f0f-98c1-0769944ba655"
+                  name="Customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fae2aacf-ba54-43f0-bc23-f7f1fc28a635"
+                  name="Processing payments"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c0fb3fb7-2d6b-4e08-b64b-3ac86aa6acf8"
+        name="Silver Package"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="efadf99b-ed4c-4d77-9b49-c3a444973a74"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5d84b207-be55-4f3b-8603-025fd22db48d"
+        name="Gold Package"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="efadf99b-ed4c-4d77-9b49-c3a444973a74"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9f368c8b-d010-4a12-a3cf-417d296b5c3c"
+        name="Feedback"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="efadf99b-ed4c-4d77-9b49-c3a444973a74"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c3dbb0d4-a81e-4d27-a680-570cb5807291"
+        name="Collecting revenue"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="efadf99b-ed4c-4d77-9b49-c3a444973a74"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a7f4ed52-05aa-4ac9-9d07-586c1284bcec"
+        name="Taking car to washing location"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="efadf99b-ed4c-4d77-9b49-c3a444973a74"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="132e9d02-12b0-4eaf-80ab-0e9011cef150"
+        name="Services"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="720d7c2c-e7c1-4d6d-bf1c-d5b1787c8f6b"
+            isDerived="false"
+            sourceEndRoleName="Services"
+            targetEndRoleName="Car Wash"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5c75662f-f0df-491f-aebb-367e3c562972"
+              LastKnownName="Car Wash"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4d798b23-c711-4c31-8294-59fbb525a826"
+                  name="Services"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="746617d8-8dea-4db4-b7a9-4ecd89dbc650"
+                  name="Car Wash"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="30bc4ba3-d586-4b2a-8e5c-46f1b28aac51"
+            isDerived="false"
+            sourceEndRoleName="Services"
+            targetEndRoleName="Car pickup/ Car drop off"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b015ccc2-a956-467a-b7e4-beca7837eaa6"
+              LastKnownName="Car pickup/ Car drop off"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c28ccc9a-1e83-4b0d-9c78-3ef44562a055"
+                  name="Services"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1df789a3-505f-4328-9c9a-f42d583bad23"
+                  name="Car pickup/ Car drop off"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="efadf99b-ed4c-4d77-9b49-c3a444973a74"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="40f05398-f217-4838-aa7c-695706882f58"
+        name="Log in/ sign up"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="efadf99b-ed4c-4d77-9b49-c3a444973a74"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5c75662f-f0df-491f-aebb-367e3c562972"
+        name="Car Wash"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="cd050441-6fd6-4304-a0db-e1b703541781"
+            isDerived="false"
+            sourceEndRoleName="Car Wash"
+            targetEndRoleName="Gold Package"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5d84b207-be55-4f3b-8603-025fd22db48d"
+              LastKnownName="Gold Package"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e5bd6164-1db1-4b47-823d-d8b8e7d3c8cc"
+                  name="Car Wash"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="595d0a47-746b-4214-848b-baa403e29ec3"
+                  name="Gold Package"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3bb72d8d-170b-4969-b090-7ed136f7d285"
+            isDerived="false"
+            sourceEndRoleName="Car Wash"
+            targetEndRoleName="Silver Package"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c0fb3fb7-2d6b-4e08-b64b-3ac86aa6acf8"
+              LastKnownName="Silver Package"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="36c1c1cf-7430-4c2b-96c0-5de121f71213"
+                  name="Car Wash"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cae0ff6f-0dd4-4ef9-93aa-a3f950759b46"
+                  name="Silver Package"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="efadf99b-ed4c-4d77-9b49-c3a444973a74"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="efadf99b-ed4c-4d77-9b49-c3a444973a74"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="57eecb8a-b7de-4ee8-92c1-8634fe69df20"
+        name="Company  Owner"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="8546e20b-0e0d-4787-ba75-ffa58787bf5f"
+            isDerived="false"
+            sourceEndRoleName="Company  Owner"
+            targetEndRoleName="Collecting revenue"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c3dbb0d4-a81e-4d27-a680-570cb5807291"
+              LastKnownName="Collecting revenue"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ad94584f-6677-4cf1-9325-80a5007c8534"
+                  name="Company  Owner"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4f091956-9fcb-4de4-a115-469ef2616687"
+                  name="Collecting revenue"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="70fb1bfb-96a4-4a8e-94b3-645afce119cc"
+            isDerived="false"
+            sourceEndRoleName="Company  Owner"
+            targetEndRoleName="Hiring Drivers"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c34bd8c8-a04f-47d6-be2e-e7e81c5fe90d"
+              LastKnownName="Hiring Drivers"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="80f48462-f435-4ef9-b87d-af9106236d26"
+                  name="Company  Owner"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8166edf6-4df7-494b-a8a7-872e871f0f7d"
+                  name="Hiring Drivers"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="30845769-7781-4c55-9b46-02612f36d1f2"
+            isDerived="false"
+            sourceEndRoleName="Company  Owner"
+            targetEndRoleName="Management"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b7a99536-7771-496d-842c-681cb570a85d"
+              LastKnownName="Management"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="51e2957d-f1a7-48e5-99ec-97af3ee1b939"
+                  name="Company  Owner"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="582c3ebb-b4f1-41a0-8998-73d82736ab6c"
+                  name="Management"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="44bfea88-19b6-48a2-9ee4-56d2d00fe5ef"
+        name="Driver"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="f2cbc299-6d76-4fb6-af2b-a028fd9c35c1"
+            isDerived="false"
+            sourceEndRoleName="Driver"
+            targetEndRoleName="Taking car to washing location"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a7f4ed52-05aa-4ac9-9d07-586c1284bcec"
+              LastKnownName="Taking car to washing location"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="61bb4723-98ee-44b5-b9a8-1f07de81b256"
+                  name="Driver"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="70adbe76-ed3f-4dc6-b52a-5277e53e22e0"
+                  name="Taking car to washing location"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="72724297-9f0f-44b2-8fe1-a116bfa118ac"
+            isDerived="false"
+            sourceEndRoleName="Driver"
+            targetEndRoleName="Collecting payment from customer"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="26e3d700-43fa-4f93-ada8-14734d562f26"
+              LastKnownName="Collecting payment from customer"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a4b109e7-74d6-4c09-a09f-bdf0f757e0e7"
+                  name="Driver"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="524457c4-e217-4c70-b5d2-9345d5a2a07f"
+                  name="Collecting payment from customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="85544619-9d31-43d2-afd9-38ec7785306f"
+            isDerived="false"
+            sourceEndRoleName="Driver"
+            targetEndRoleName="Car pickup/ Car drop off"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b015ccc2-a956-467a-b7e4-beca7837eaa6"
+              LastKnownName="Car pickup/ Car drop off"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fc0b1545-be16-43e1-a763-14878e308a02"
+                  name="Driver"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="716c7fbe-b4bd-4ab7-873f-094220ee4cc4"
+                  name="Car pickup/ Car drop off"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b015ccc2-a956-467a-b7e4-beca7837eaa6"
+        name="Car pickup/ Car drop off"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="efadf99b-ed4c-4d77-9b49-c3a444973a74"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c34bd8c8-a04f-47d6-be2e-e7e81c5fe90d"
+        name="Hiring Drivers"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="efadf99b-ed4c-4d77-9b49-c3a444973a74"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="26e3d700-43fa-4f93-ada8-14734d562f26"
+        name="Collecting payment from customer"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="a2115767-8639-4991-aa6c-80f5b5495e88"
+            isDerived="false"
+            sourceEndRoleName="Collecting payment from customer"
+            targetEndRoleName="Collecting revenue"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c3dbb0d4-a81e-4d27-a680-570cb5807291"
+              LastKnownName="Collecting revenue"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8340982a-cfeb-4895-920e-7789977c6d54"
+                  name="Collecting payment from customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="92d36af1-047c-44b2-80ca-b98c220d9030"
+                  name="Collecting revenue"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="efadf99b-ed4c-4d77-9b49-c3a444973a74"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b7a99536-7771-496d-842c-681cb570a85d"
+        name="Management"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="efadf99b-ed4c-4d77-9b49-c3a444973a74"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="4da32f4c-073b-4895-8d69-a566bdeb35a6"
+        name="Bank"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="d428e3bf-6a9d-45b9-8e30-60e23be37df0"
+            isDerived="false"
+            sourceEndRoleName="Bank"
+            targetEndRoleName="Processing payments"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2a969f12-e3c3-4f8f-a6dd-84e1359bb605"
+              LastKnownName="Processing payments"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5e02da0b-162d-4114-aeb9-d500e101c9d9"
+                  name="Bank"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fd77cd54-355b-4ebc-90c4-d28b0873432d"
+                  name="Processing payments"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c2a30a88-64cc-4fbe-a0f9-9f147f811843"
+            isDerived="false"
+            sourceEndRoleName="Bank"
+            targetEndRoleName="Insuring all cars/Drivers"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c0bc1c32-95b3-44fc-a706-67d803bebcc2"
+              LastKnownName="Insuring all cars/Drivers"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="07babbd4-e5d8-486a-84f3-42bde40754cd"
+                  name="Bank"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1839f937-5203-48cd-a0eb-0de135f510e9"
+                  name="Insuring all cars/Drivers"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2a969f12-e3c3-4f8f-a6dd-84e1359bb605"
+        name="Processing payments"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="97ef4a14-532f-499a-90bd-40f626d2a4b8"
+            isDerived="false"
+            sourceEndRoleName="Processing payments"
+            targetEndRoleName="Collecting revenue"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c3dbb0d4-a81e-4d27-a680-570cb5807291"
+              LastKnownName="Collecting revenue"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="03e81add-dccf-4140-a7bb-7f79e517f531"
+                  name="Processing payments"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9bf06df1-5354-4a0b-813d-96cb5d9bd713"
+                  name="Collecting revenue"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="efadf99b-ed4c-4d77-9b49-c3a444973a74"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c0bc1c32-95b3-44fc-a706-67d803bebcc2"
+        name="Insuring all cars/Drivers"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="36f969cb-d8fa-491b-942c-df5cdc24d136"
+            isDerived="false"
+            sourceEndRoleName="Insuring all cars/Drivers"
+            targetEndRoleName="Management"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b7a99536-7771-496d-842c-681cb570a85d"
+              LastKnownName="Management"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="af3377bd-2f21-4f0e-a01a-39a95e2ad86f"
+                  name="Insuring all cars/Drivers"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="39841a60-e904-4203-9ba0-5a501c38711e"
+                  name="Management"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="efadf99b-ed4c-4d77-9b49-c3a444973a74"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

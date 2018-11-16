@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="172a3bf0-1e5f-438a-b001-ebe9b74e6fd2" name="UMLUseCaseDiagram1" linkedPackageId="a09c972f-6614-4983-913c-44b6274ff989" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="b2151f6b-1d74-44cc-bc58-96f6411cd21c">
+      <profileInstance Id="9f57092f-d8c1-4876-99c4-b735ed588ce8" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="b1a8376a-c032-4917-8096-da0e81ee802a">
+      <profileInstance Id="97696e61-248a-4e01-99f0-0409ee599698" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="d5160de0-3a73-446f-ab1d-741e21641b5a" name="Customer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7beb241a-3dec-4a03-8e86-277e07620d04" />
+        <targetEnds>
+          <association Id="88346d29-2b0f-4d8b-8432-4eb43f8147cb" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="Services" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8b3db391-167b-4857-8d89-6c2b65762928" LastKnownName="Services" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4dd6ac53-f836-451b-b84f-f9bca9824615" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a11ef182-aa06-451c-b9be-7ff7dc85fd9b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b39d830c-ff49-4ecd-b659-1138c025380b" name="Services" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="11ba23ef-a666-49b4-9f78-d5dce19b342e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4f217871-fa00-416f-8988-e347870dc5d7" />
+          </association>
+          <association Id="e831a76a-77fd-4393-a91b-21387ef888eb" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="Log in/ sign up" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="79c408f8-5323-4e93-9801-eff3acb3667a" LastKnownName="Log in/ sign up" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2e391f6c-9349-4791-a010-a93278534352" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4f41ccda-fe7f-4d54-84af-e5670cfbb22d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="591e38e1-b5a3-43da-8186-07262d32c814" name="Log in/ sign up" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="074b54c5-d1de-49d6-9759-f334448055ad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0ab43812-025d-4c11-a105-ceacbce7b86f" />
+          </association>
+          <association Id="bdcbf05c-a3bf-4f2b-9a07-a2e0b82d6a39" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="Feedback" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1408b461-1a7d-4ebe-aff9-e9d79147b53a" LastKnownName="Feedback" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e27447ac-d3a1-417b-9051-62250cd312e5" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="968c4630-6a21-41e2-940c-619e9e346dfe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f5fe4df8-ad4a-42c2-b4c9-3706804bc4a6" name="Feedback" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1053e0cf-64cd-4f05-b616-8458a0ca839a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f146e2dc-91f8-43d0-8e12-bf00b2e50a7a" />
+          </association>
+          <association Id="3cc6f3b2-6b63-46a7-bb64-7921b2bed689" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="Customer" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="d5160de0-3a73-446f-ab1d-741e21641b5a" LastKnownName="Customer" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a0d3944a-7c03-4e03-a737-711bbcfc5c0e" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d7aae124-8ac3-43d5-a17e-eb6f108d00f8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="21da5781-762b-498a-baf6-d5be86b081c5" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a1472df1-7171-41cd-ad69-0b4f1f890227" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1801e917-275b-4aa2-87c2-8343bb37cb0a" />
+          </association>
+          <association Id="678e9f75-6cc0-425b-ba67-282c8cc30154" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="Processing payments" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e0bc40f5-b2a4-466c-beb6-a910bd65e468" LastKnownName="Processing payments" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="70ae7ff9-3265-4817-843e-d04959375667" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bb0e2ecf-a716-4f0f-98c1-0769944ba655" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9c5a9d84-53fe-488b-a9a6-a07ed6e9af1c" name="Processing payments" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fae2aacf-ba54-43f0-bc23-f7f1fc28a635" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5bda64e3-2915-4ba6-9ff7-527dd168a1e6" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a5051734-dc44-401d-8120-69c199850bc2" name="Silver Package" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c0fb3fb7-2d6b-4e08-b64b-3ac86aa6acf8" />
+        <subjects>
+          <subsystemMoniker Id="5504afd4-3470-42a8-b33f-a3ec11ab3c7b" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7220b5bb-6225-4dbd-8fad-ca05ee0df13a" name="Gold Package" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5d84b207-be55-4f3b-8603-025fd22db48d" />
+        <subjects>
+          <subsystemMoniker Id="5504afd4-3470-42a8-b33f-a3ec11ab3c7b" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1408b461-1a7d-4ebe-aff9-e9d79147b53a" name="Feedback" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9f368c8b-d010-4a12-a3cf-417d296b5c3c" />
+        <subjects>
+          <subsystemMoniker Id="5504afd4-3470-42a8-b33f-a3ec11ab3c7b" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="4f9fbad7-00a3-4e84-b42d-e5a3357ae91f" name="Collecting revenue" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c3dbb0d4-a81e-4d27-a680-570cb5807291" />
+        <subjects>
+          <subsystemMoniker Id="5504afd4-3470-42a8-b33f-a3ec11ab3c7b" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="63fb1122-8717-4dde-aefa-2811ab0052ea" name="Taking car to washing location" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a7f4ed52-05aa-4ac9-9d07-586c1284bcec" />
+        <subjects>
+          <subsystemMoniker Id="5504afd4-3470-42a8-b33f-a3ec11ab3c7b" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8b3db391-167b-4857-8d89-6c2b65762928" name="Services" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="132e9d02-12b0-4eaf-80ab-0e9011cef150" />
+        <targetEnds>
+          <association Id="c7f5d506-fd7e-4448-bc85-339ac811012f" isDerived="false" sourceEndRoleName="Services" targetEndRoleName="Car Wash" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="406c5252-f4de-4cc0-a28c-0fef232e4afc" LastKnownName="Car Wash" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b8be7e8a-5bcc-464e-993b-bc6aa4502564" name="Services" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4d798b23-c711-4c31-8294-59fbb525a826" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a8725535-842f-4b8f-a1fd-e66ef3cc6568" name="Car Wash" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="746617d8-8dea-4db4-b7a9-4ecd89dbc650" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="720d7c2c-e7c1-4d6d-bf1c-d5b1787c8f6b" />
+          </association>
+          <association Id="fd4332d3-b1d0-4c8e-81c4-643ec904d4ac" isDerived="false" sourceEndRoleName="Services" targetEndRoleName="Car pickup/ Car drop off" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="44e0379f-8abd-4afe-ae51-f16a3aee69fe" LastKnownName="Car pickup/ Car drop off" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="25f3c379-80ea-4aa1-bb1b-1e19edbd02a7" name="Services" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c28ccc9a-1e83-4b0d-9c78-3ef44562a055" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="01cfa482-80c0-48d1-b6ad-7b8329626bc4" name="Car pickup/ Car drop off" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1df789a3-505f-4328-9c9a-f42d583bad23" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="30bc4ba3-d586-4b2a-8e5c-46f1b28aac51" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="5504afd4-3470-42a8-b33f-a3ec11ab3c7b" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="79c408f8-5323-4e93-9801-eff3acb3667a" name="Log in/ sign up" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="40f05398-f217-4838-aa7c-695706882f58" />
+        <subjects>
+          <subsystemMoniker Id="5504afd4-3470-42a8-b33f-a3ec11ab3c7b" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="406c5252-f4de-4cc0-a28c-0fef232e4afc" name="Car Wash" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5c75662f-f0df-491f-aebb-367e3c562972" />
+        <targetEnds>
+          <association Id="733468e2-b4ee-4e20-9747-dd4bba8f3a81" isDerived="false" sourceEndRoleName="Car Wash" targetEndRoleName="Gold Package" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7220b5bb-6225-4dbd-8fad-ca05ee0df13a" LastKnownName="Gold Package" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7c0481bd-659e-4637-9878-98ba6c581300" name="Car Wash" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e5bd6164-1db1-4b47-823d-d8b8e7d3c8cc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0c231846-a8e8-42d0-9669-e967ec820525" name="Gold Package" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="595d0a47-746b-4214-848b-baa403e29ec3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cd050441-6fd6-4304-a0db-e1b703541781" />
+          </association>
+          <association Id="7f3c7467-39aa-4228-93ef-3b5fc29d55ad" isDerived="false" sourceEndRoleName="Car Wash" targetEndRoleName="Silver Package" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a5051734-dc44-401d-8120-69c199850bc2" LastKnownName="Silver Package" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4ea9e051-35fd-4a07-9420-311bff1d0b60" name="Car Wash" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="36c1c1cf-7430-4c2b-96c0-5de121f71213" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4731b00b-270c-49f8-8021-506297bf6cdd" name="Silver Package" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cae0ff6f-0dd4-4ef9-93aa-a3f950759b46" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3bb72d8d-170b-4969-b090-7ed136f7d285" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="5504afd4-3470-42a8-b33f-a3ec11ab3c7b" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="5504afd4-3470-42a8-b33f-a3ec11ab3c7b" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="efadf99b-ed4c-4d77-9b49-c3a444973a74" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="b957ae0e-b71c-48c1-8e80-107ea5150201" name="Company  Owner" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="57eecb8a-b7de-4ee8-92c1-8634fe69df20" />
+        <targetEnds>
+          <association Id="b94dd7bf-38d9-49ad-9b31-b2b2a708fbf5" isDerived="false" sourceEndRoleName="Company  Owner" targetEndRoleName="Collecting revenue" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4f9fbad7-00a3-4e84-b42d-e5a3357ae91f" LastKnownName="Collecting revenue" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4b0acc51-1f2a-4909-aa24-3383712c91ce" name="Company  Owner" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ad94584f-6677-4cf1-9325-80a5007c8534" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5a5a843a-7f51-494d-b638-d40e6383db77" name="Collecting revenue" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4f091956-9fcb-4de4-a115-469ef2616687" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8546e20b-0e0d-4787-ba75-ffa58787bf5f" />
+          </association>
+          <association Id="f28b4153-e1de-477e-b395-1b0e665aefd0" isDerived="false" sourceEndRoleName="Company  Owner" targetEndRoleName="Hiring Drivers" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c0398a75-d39f-4b68-92be-4521d134ef08" LastKnownName="Hiring Drivers" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1380b6d5-2a67-49d7-ac11-4418272974d3" name="Company  Owner" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="80f48462-f435-4ef9-b87d-af9106236d26" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cc638e02-8989-4730-9b99-11d458595198" name="Hiring Drivers" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8166edf6-4df7-494b-a8a7-872e871f0f7d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="70fb1bfb-96a4-4a8e-94b3-645afce119cc" />
+          </association>
+          <association Id="c0eea2bf-7216-4a87-9b34-874aea7c963d" isDerived="false" sourceEndRoleName="Company  Owner" targetEndRoleName="Management" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5a102f20-3c60-45e7-9b2e-32f11907368a" LastKnownName="Management" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="318951bb-f7b3-424e-a929-8558f52f67de" name="Company  Owner" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="51e2957d-f1a7-48e5-99ec-97af3ee1b939" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e7c146d4-c38d-4f5b-a2de-2317306dae61" name="Management" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="582c3ebb-b4f1-41a0-8998-73d82736ab6c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="30845769-7781-4c55-9b46-02612f36d1f2" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="199a7865-f628-482c-9c5c-c99fe44abc46" name="Driver" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="44bfea88-19b6-48a2-9ee4-56d2d00fe5ef" />
+        <targetEnds>
+          <association Id="735f1938-4ce5-4753-aa2f-71343ddb24a1" isDerived="false" sourceEndRoleName="Driver" targetEndRoleName="Taking car to washing location" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="63fb1122-8717-4dde-aefa-2811ab0052ea" LastKnownName="Taking car to washing location" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3a01f2ed-b6f2-4742-b79a-989315f40fbd" name="Driver" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="61bb4723-98ee-44b5-b9a8-1f07de81b256" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eeac7f60-e7e9-4b15-9d53-4fc171fb8408" name="Taking car to washing location" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="70adbe76-ed3f-4dc6-b52a-5277e53e22e0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f2cbc299-6d76-4fb6-af2b-a028fd9c35c1" />
+          </association>
+          <association Id="77e74658-c763-4e4e-9901-fe4565d458f9" isDerived="false" sourceEndRoleName="Driver" targetEndRoleName="Collecting payment from customer" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="43239dff-e2b1-4938-80af-93dfb6a0ad27" LastKnownName="Collecting payment from customer" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f523023f-c60e-48c5-87b5-a683cb7e10cb" name="Driver" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a4b109e7-74d6-4c09-a09f-bdf0f757e0e7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9f695122-7fbb-4558-96b7-f744f21a06c4" name="Collecting payment from customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="524457c4-e217-4c70-b5d2-9345d5a2a07f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="72724297-9f0f-44b2-8fe1-a116bfa118ac" />
+          </association>
+          <association Id="683390ba-7279-4838-baff-e186245f5754" isDerived="false" sourceEndRoleName="Driver" targetEndRoleName="Car pickup/ Car drop off" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="44e0379f-8abd-4afe-ae51-f16a3aee69fe" LastKnownName="Car pickup/ Car drop off" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7fb55888-e9b6-4ebd-bacf-3e5be606f92a" name="Driver" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fc0b1545-be16-43e1-a763-14878e308a02" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="020a1ffc-5d4b-41bf-a2fb-6b44bace1925" name="Car pickup/ Car drop off" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="716c7fbe-b4bd-4ab7-873f-094220ee4cc4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="85544619-9d31-43d2-afd9-38ec7785306f" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="44e0379f-8abd-4afe-ae51-f16a3aee69fe" name="Car pickup/ Car drop off" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b015ccc2-a956-467a-b7e4-beca7837eaa6" />
+        <subjects>
+          <subsystemMoniker Id="5504afd4-3470-42a8-b33f-a3ec11ab3c7b" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="c0398a75-d39f-4b68-92be-4521d134ef08" name="Hiring Drivers" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c34bd8c8-a04f-47d6-be2e-e7e81c5fe90d" />
+        <subjects>
+          <subsystemMoniker Id="5504afd4-3470-42a8-b33f-a3ec11ab3c7b" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="43239dff-e2b1-4938-80af-93dfb6a0ad27" name="Collecting payment from customer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="26e3d700-43fa-4f93-ada8-14734d562f26" />
+        <targetEnds>
+          <association Id="58a94c61-0021-4e48-8244-462abad834d2" isDerived="false" sourceEndRoleName="Collecting payment from customer" targetEndRoleName="Collecting revenue" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4f9fbad7-00a3-4e84-b42d-e5a3357ae91f" LastKnownName="Collecting revenue" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="22a7d245-c1dc-4a7b-8ce7-fac9d56ba9b8" name="Collecting payment from customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8340982a-cfeb-4895-920e-7789977c6d54" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="33c82a2a-cd59-450a-8a8e-3c7e4b762c32" name="Collecting revenue" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="92d36af1-047c-44b2-80ca-b98c220d9030" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a2115767-8639-4991-aa6c-80f5b5495e88" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="5504afd4-3470-42a8-b33f-a3ec11ab3c7b" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="5a102f20-3c60-45e7-9b2e-32f11907368a" name="Management" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b7a99536-7771-496d-842c-681cb570a85d" />
+        <subjects>
+          <subsystemMoniker Id="5504afd4-3470-42a8-b33f-a3ec11ab3c7b" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="e536ef27-c2b4-4c4a-ae94-5755eab1a3fa" name="Bank" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4da32f4c-073b-4895-8d69-a566bdeb35a6" />
+        <targetEnds>
+          <association Id="c183014a-1c9a-460f-b4d1-39f159c6fe43" isDerived="false" sourceEndRoleName="Bank" targetEndRoleName="Processing payments" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e0bc40f5-b2a4-466c-beb6-a910bd65e468" LastKnownName="Processing payments" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f284d0e3-9d3e-4794-a927-118896dfa426" name="Bank" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5e02da0b-162d-4114-aeb9-d500e101c9d9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c1cd887d-522b-4ae9-82c2-963b82085d9b" name="Processing payments" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fd77cd54-355b-4ebc-90c4-d28b0873432d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d428e3bf-6a9d-45b9-8e30-60e23be37df0" />
+          </association>
+          <association Id="c0106df2-0dae-48a8-88ad-df5d25afcfff" isDerived="false" sourceEndRoleName="Bank" targetEndRoleName="Insuring all cars/Drivers" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="60efac62-99c0-42ad-a01e-bb3074dc4de7" LastKnownName="Insuring all cars/Drivers" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a9a1e362-3c90-45c6-b5ae-39e373a1a492" name="Bank" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="07babbd4-e5d8-486a-84f3-42bde40754cd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f902857e-707f-48f8-9314-0fa4eaa7e8f4" name="Insuring all cars/Drivers" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1839f937-5203-48cd-a0eb-0de135f510e9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c2a30a88-64cc-4fbe-a0f9-9f147f811843" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="e0bc40f5-b2a4-466c-beb6-a910bd65e468" name="Processing payments" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2a969f12-e3c3-4f8f-a6dd-84e1359bb605" />
+        <targetEnds>
+          <association Id="dc07cb48-6216-499f-a57b-ab4369383469" isDerived="false" sourceEndRoleName="Processing payments" targetEndRoleName="Collecting revenue" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4f9fbad7-00a3-4e84-b42d-e5a3357ae91f" LastKnownName="Collecting revenue" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="11d5301f-9edb-4ac7-a5d8-7054b839d0ae" name="Processing payments" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="03e81add-dccf-4140-a7bb-7f79e517f531" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bac70552-4537-4d5a-827e-64b533d73555" name="Collecting revenue" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9bf06df1-5354-4a0b-813d-96cb5d9bd713" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="97ef4a14-532f-499a-90bd-40f626d2a4b8" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="5504afd4-3470-42a8-b33f-a3ec11ab3c7b" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="60efac62-99c0-42ad-a01e-bb3074dc4de7" name="Insuring all cars/Drivers" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c0bc1c32-95b3-44fc-a706-67d803bebcc2" />
+        <targetEnds>
+          <association Id="3da85db4-c641-4ea0-874f-eab11cbb246a" isDerived="false" sourceEndRoleName="Insuring all cars/Drivers" targetEndRoleName="Management" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5a102f20-3c60-45e7-9b2e-32f11907368a" LastKnownName="Management" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0e5cb956-89d1-4c86-920b-6d15cdfba2e5" name="Insuring all cars/Drivers" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="af3377bd-2f21-4f0e-a01a-39a95e2ad86f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ac39eac1-53d6-41cf-8a8e-1889e5615422" name="Management" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="39841a60-e904-4203-9ba0-5a501c38711e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="36f969cb-d8fa-491b-942c-df5cdc24d136" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="5504afd4-3470-42a8-b33f-a3ec11ab3c7b" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="a09c972f-6614-4983-913c-44b6274ff989" name="ModelingProject1">
+    <elementDefinition Id="c785ece1-d30f-447f-bbb2-6d647ac40e27" />
+  </package>
+</useCaseModelRoot>
